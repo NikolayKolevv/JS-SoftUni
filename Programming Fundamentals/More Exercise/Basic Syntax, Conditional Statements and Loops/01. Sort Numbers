@@ -1,0 +1,6 @@
+function sortNumbers(numberOne, numberTwo, numberThree) {
+    let numbers = [numberOne, numberTwo, numberThree];
+    numbers.sort((a, b) => b - a);
+    console.log(numbers.join('\n'));
+
+}
