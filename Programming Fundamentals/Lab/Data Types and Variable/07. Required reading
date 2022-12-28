@@ -1,0 +1,5 @@
+function Reading(pages,hour,days){
+    let total=pages/hour;
+    let required=total/days;
+    console.log(required);
+}
