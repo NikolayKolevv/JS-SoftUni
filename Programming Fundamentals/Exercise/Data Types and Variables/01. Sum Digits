@@ -1,0 +1,9 @@
+function Sum(num){
+    let numString=String(num);
+    let sum=0;
+    for(let i=0;i<numString.length;i++){
+        let currNum=Number(numString[i]);
+        sum+=currNum;
+    }
+    console.log(sum);
+}
