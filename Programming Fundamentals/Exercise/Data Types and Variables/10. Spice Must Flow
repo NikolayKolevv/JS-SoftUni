@@ -1,0 +1,12 @@
+function solve(start){
+let days=0;
+let extract=0;
+while(start>=100){
+  days++;
+  extract+=start-26;
+  start-=10;
+}
+let total=days!==0? extract-26:extract;
+console.log(days);
+console.log(total);
+}
