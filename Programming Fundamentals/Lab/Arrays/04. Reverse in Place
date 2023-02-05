@@ -1,0 +1,13 @@
+function solve(elements) {
+    for (let i = 0; i < elements.length / 2; i++) {
+      swap(elements, i, elements.length - 1 - i);
+    }
+  
+    console.log(elements.join(' '));
+  
+    function swap(arr, i, j) {
+      let tempValue = arr[i];
+      arr[i] = arr[j];
+      arr[j] = tempValue;
+    }
+  }
